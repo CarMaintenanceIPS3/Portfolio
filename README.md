@@ -1,6 +1,6 @@
-# S3 portfolio / Reading guide
+# S3 portfolio
 
-# Table of Contents
+## Table of Contents
 
 - [Introduction](#introduction)
 - [Learning Outcomes](#learning-outcomes)
