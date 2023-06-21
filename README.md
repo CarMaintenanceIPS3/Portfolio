@@ -5,6 +5,7 @@
 - [Introduction](#introduction)
 - [Learning Outcomes](#learning-outcomes)
 - [Evidence of Learning Outcomes](#evidence-of-learning-outcomes)
+- [Research](#research)
 - [Conclusion](#conclusion)
 
 
@@ -194,6 +195,20 @@ Below you can find an examples of how we advised the PO with the last sprint:
 
 *We look forward to your feedback.*
 
+## Research
+This semester we had to write two research reports. I have chosen to write a research report about Designing Secure APIs. With the subquestions;
+1.	What are the best practices for designing secure APIs for web applications?
+2.	How can access control be implemented for different user roles (e.g., owner, service provider) in the API?
+3.	What measures can be taken to protect against common API security threats, such as SQL injection, cross-site scripting, and CSRF attacks?
+4.	How can rate limiting and request validation be used to mitigate API abuse and ensure service availability?
+5.	How can input validation and output encoding be implemented in the API to prevent injection attacks and data leaks?
+6.	How can API versioning be managed to maintain backward compatibility and security updates without disrupting the user experience?
+
+After I told Leon about my choice of research he gave me two options, Scope the research or keep it the same and write one research report. I have chosen for the latter, write one research report.
+
+After working on it for a few weeks I found out that it may be too big but now I was very interested in all the research I had done. In the future I would have scoped this research. Now I also answered questions that are not that relevant for my own project.
+
+The research can be found in [api-security-research](https://github.com/CarMaintenanceIPS3/api-security-research)
 
 
 ## Conclusion
