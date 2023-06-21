@@ -1,10 +1,15 @@
 # S3 portfolio / Reading guide
 
+# Table of Contents
 
+- [Introduction](#introduction)
+- [Learning Outcomes](#learning-outcomes)
+- [Evidence of Learning Outcomes](#evidence-of-learning-outcomes)
+- [Conclusion](#conclusion)
 
 
 ## Introduction
-Briefly discuss the purpose of the portfolio.
+In this portfolio I would like to show the different learning outcomes for this semester and afterwards talk about how I proved them. At the end there will be a short conclusion
 
 
 ## Learning outcomes
@@ -60,7 +65,7 @@ Briefly discuss the purpose of the portfolio.
      - You choose and substantiate solutions for a given problem.
 
 
-
+<br>
 
 ### Evidence of learning outcomes
 For each learning outcome, present the relevant piece of work and explain how it demonstrates your proficiency in that particular outcome. Include the feedback from your teachers here.
@@ -76,18 +81,22 @@ When a visitor first visits the website they get a short introduction to what th
 
 All of this is made possible with docker, At the start of the semester I had heard about it but never used it. Now I have made a full stack application reality and I have hosted the API for the group project on AWS.
 
-Also I have used nginx for routing.
+Also, I have used nginx for routing.
 
 I have dockerfiles in the folders named; [fauna_db_api](https://github.com/CarMaintenanceIPS3/fauna_db_api), [nextjs](https://github.com/CarMaintenanceIPS3/NextJS) and [nginx](https://github.com/CarMaintenanceIPS3/CarMaintenanceDockerSetup/tree/main/nginx). In the zip on the same level as these folders, I have the docker-compose.yml.
- 
-[img of designs]
+
+![Landing page](Images/LandingPage.png)
+![First login](Images/FirstLogin.png)
+![Dashboard](Images/Dashboard.png)
+
 <br>
 
 ---
 
 **2. Software Quality** 
 #### What have I used
-Frontend tools used include Jest, Lint, Axios, SonarCloud, QodeQL, and Dependabot. The backend was developed with XUnit and SonarCloud.
+Frontend tools used include Jest, Lint, Axios, SonarCloud, QodeQL, and Dependabot. I also made use of TS instead of JS for better quality.
+The backend was developed with XUnit and SonarCloud.
 <br>
 #### How does it work
 Every push or commit to the master branch triggers a code quality check by SonarCloud. This ensures that there are no code smells, bugs, or other issues in my code before it's deemed safe for production. Additionally, the CI automatically runs tests on the frontend. The clearest representation of my testing is in the frontend, and all tests for it can be found in the folder; nextjs/__ test __ `https://github.com/CarMaintenanceIPS3/NextJS/tree/dev/__tests__`
@@ -95,7 +104,7 @@ Every push or commit to the master branch triggers a code quality check by Sonar
 I want to explain Savevehicle.ts in the test folder. In the file there are two tests named;
 
 1.  **responds with success when given valid data**
-This test is for simulating a successful scenario where valid vehicle data is sent to the `saveVehicle` endpoint in the api folder. The expected result is a status code of 200 and a success message from the server.
+This test is for simulating a successful scenario where valid vehicle data is sent to the `saveVehicle.ts` endpoint in the api folder. The expected result is a status code of 200 and a success message from the server.
     
 2.  **responds with error when given invalid data**
 This test simulates an error scenario where incorrect vehicle data is sent to the same endpoint. I expect the server to return a status code of 500 and an error message.
@@ -108,7 +117,10 @@ Mocking the server allows me to control the server responses in a predictable wa
 
 **3. Agile method**
 
-Both the group and the individual projects used Agile Scrum. While this methodology was highly effective for the group project, I found some challenges in applying it to the individual project. Nonetheless, images of the board for the group project clearly depict my understanding and proficiency in this area. [Images of board, depicting my mastery with a Jira board.]
+Both the group and the individual projects used Agile Scrum. While this methodology was highly effective for the group project, I found some challenges in applying it to the individual project. Nonetheless, images of the board for the group project clearly depict my understanding and proficiency in this area. 
+
+![Backlog and Sprint](Images/BacklogAndSprint.png)
+![Jira ticket example](Images/ExampleJira.png)
 
 <br>
 
@@ -149,7 +161,8 @@ All documentation for the group project can be found in the folder GP-S3/General
 We have made the business process for the group project. This can be found in the folder GP-S3/General/Documentation
 
 Here is the image of what the process is before implementation of our application.
-[img process before here]
+
+![Landing page](Images/Business_Process.png)
 <br>
 
 ---
